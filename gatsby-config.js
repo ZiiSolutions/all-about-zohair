@@ -13,7 +13,9 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-typescript`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
